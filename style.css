@@ -1,5 +1,5 @@
 body {
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     font-family: Arial;
 }
 .container {
@@ -10,11 +10,25 @@ body {
    
 }
 .encabezado {
-    background-image: url(logo.png) ;
+    background-image: url(Logopage.png) ;
     background-position: center;
     background-repeat: no-repeat;
-    height: 25vh;
-    margin: 10px;
+    height: 6vh;
+    margin: 6px;
  
 
+}
+#header-wrapper
+{
+	overflow: hidden;
+	background-size: 100%;
+	padding: 1em 1em 1em 1em;
+	background: #ffffff;
+    margin: 6px;
+}
+#content
+{
+	float: center;
+	width: 790px;
+    margin: 7px;
 }
