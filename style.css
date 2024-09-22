@@ -13,8 +13,8 @@ body {
     background-image: url(Logopage.png) ;
     background-position: center;
     background-repeat: no-repeat;
-    height: 6vh;
-    margin: 6px;
+    height: 5vh;
+    margin: 3px;
  
 
 }
@@ -22,13 +22,13 @@ body {
 {
 	overflow: hidden;
 	background-size: 100%;
-	padding: 1em 1em 1em 1em;
+	padding: 1em 0em 1em 1em;
 	background: #ffffff;
-    margin: 6px;
+    margin: 0px;
 }
-#content
+.content
 {
-	float: center;
-	width: 790px;
+	background-position: center;
+	width: 100%;
     margin: 7px;
 }
