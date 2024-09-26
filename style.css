@@ -44,8 +44,9 @@ nav a:hover{
 .content
 {
 	background-position: center;
-	width: 100%;
+	width: 50%;
     margin: 7px;
+    align-items: left;
 }
 @media (max-width:700px){
     header{
