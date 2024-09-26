@@ -1,7 +1,9 @@
 body {
     background: rgb(0, 0, 0);
     font-family: Arial;
+    margin: 0;
 }
+/*contenedor de elementos*/
 .container {
 	width: 100%;
     max-width: 1000px;
@@ -10,25 +12,43 @@ body {
    
 }
 .encabezado {
-    background-image: url(Logopage.png) ;
+    
+    display: flex;
+    justify-content: space-between;
     background-position: center;
     background-repeat: no-repeat;
-    height: 5vh;
+    height: 70px;
     margin: 3px;
- 
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+.logo-img{
+    height: 50px;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
 
+    color: brown;
 }
-#header-wrapper
-{
-	overflow: hidden;
-	background-size: 100%;
-	padding: 1em 0em 1em 1em;
-	background: #ffffff;
-    margin: 0px;
-}
+/*contenedor de revista*/
 .content
 {
 	background-position: center;
 	width: 100%;
     margin: 7px;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
 }
