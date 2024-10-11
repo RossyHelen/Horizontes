@@ -4,11 +4,14 @@ body {
     margin: 0;
 }
 /*contenedor de elementos*/
-.container {
-	width: 100%;
-    max-width: 1000px;
-	margin:0  auto;
+.container { 
+    background-position: center;
+	width: 100vw;
+    height: 100%;
+    padding: 3px;
+	margin:0 auto;
     overflow: hidden;
+
    
 }
 .encabezado {
@@ -43,13 +46,45 @@ nav a:hover{
 /*contenedor de revista*/
 .content
 {
-	background-position: center;
+	background-position: left;
 	width: 50%;
-    margin: 7px;
+    margin: 3px;
+    float: left;
     align-items: left;
+    background-color: brown;
 }
 @media (max-width:700px){
     header{
         flex-direction: column;
     }
+}
+.content2{
+    background-position: left;
+	width: 30%;
+    margin-right: 30px;
+    padding: 12px;
+    align-items: left;
+    font-size: 1em;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+/*pie de pagina*/
+footer{
+      background-color: rgb(255, 255, 255);
+      display: flex;;
+      margin: 3px;
+      justify-content: space-between;
+      background-position: center;
+      background-repeat: no-repeat;  
+      height: 40%;
+}
+.box{
+    float: left;
+	width: 450px;
+	margin: 6px;	
+}
+.boxcontac{
+    float: right;
+	width: 450px;
+	margin: 6px;
 }
