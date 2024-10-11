@@ -47,9 +47,10 @@ nav a:hover{
 .content
 {
 	background-position: left;
-	width: 50%;
-    margin: 3px;
-    float: left;
+	width: 90%;
+    margin:0 auto;
+    padding: 12px;
+    float: center;
     align-items: left;
     background-color: brown;
 }
@@ -57,16 +58,6 @@ nav a:hover{
     header{
         flex-direction: column;
     }
-}
-.content2{
-    background-position: left;
-	width: 30%;
-    margin-right: 30px;
-    padding: 12px;
-    align-items: left;
-    font-size: 1em;
-    float: right;
-    background-color: rgba(255, 255, 255, 0.61);
 }
 /*pie de pagina*/
 footer{
@@ -78,13 +69,29 @@ footer{
       background-repeat: no-repeat;  
       height: 40%;
 }
-.box{
+@media (max-width:700px){
+    footer{
+        flex-direction:column-reverse;
+    }
+}
+.content2{
+    background-position: left;
+	width: 40%;
+    margin-right: 30px;
+    padding: 12px;
+    align-items: left;
+    font-size: 1.3ex;
     float: left;
+}
+.box{
+    float: center;
 	width: 450px;
 	margin: 6px;	
+    font-size: 1.3ex;
 }
 .boxcontac{
     float: right;
 	width: 450px;
 	margin: 6px;
+    font-size: 1.5ex;
 }
