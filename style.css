@@ -76,7 +76,7 @@ footer{
 }
 /*editorial*/
 .content2{
-	width: 400px;
+    width: 300px;
     margin: 15px;
     font-size: 1.3ex;
     float: left;
@@ -100,7 +100,7 @@ ul.direct li{
 /*contacto*/
 .boxcontac{
     float: right;
-	width: 400px;
+	width: 300px;
 	margin: 10px;
     font-size: 1.5ex;
 }
